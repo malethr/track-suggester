@@ -8,7 +8,7 @@
   width: 100%;
 }
 
-#intro h4 {
+.well h4 {
   background-color: white;
 }
 
@@ -16,15 +16,7 @@
   display:none;
 }
 
-body{
-  background-color: black;
-}
-
 blockquote {
   text-align: center;
   margin-top: 10px;
-}
-
-#formOne {
-  background-color: white;
 }
