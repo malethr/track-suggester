@@ -6,7 +6,7 @@
 
 ## Description
 
-_This webpage is a survey form that asks user's input and suggest what track is the best for the user._
+_This webpage is a survey form that asks user's input and suggest three best track that based on survey results._
 
 [Click here](https://malethr.github.io/track-suggester/) to check my survey webpage.
 
@@ -29,7 +29,6 @@ _CSS_
 _Bootstrap_
 _JavaScripts_
 _GitHub_
-
 
 ### License
 
