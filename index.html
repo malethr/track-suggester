@@ -16,140 +16,168 @@
         <img src="img/language.jpg" alt="photo of different languages" id="language">
         <h4>Are you confuse on which programming languages to learn? Please complete the survey form to check which best programming languages is the right one for you.</h4>
       </div>
-      <div class="well">
-        <form id="formOne">
-          <div class="form-group">
-            <label for="name">What is your name?</label>
-            <input id="name" class="form-control" type="text">
+      <form id="formOne" class="well">
+        <div class="form-group">
+          <label for="name">What is your name?</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="survey1">Do you prefer front end or back-end development?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="survey1" value="1" checked>
+              Front-end development
+            </label>
           </div>
-          <div class="form-group">
-            <label for="survey1">Do you prefer front end or back-end development?</label>
-            <div class="radio">
-              <label>
-                <input type="radio" name="survey1" value="1" checked>
-                Front-end development
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="survey1" value="2">
-                Back-end development
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="survey1" value="3">
-                Not sure
-              </label>
-            </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="survey1" value="2">
+              Back-end development
+            </label>
           </div>
-          <div class="form-group">
-            <label for="survey2">Are you interested working as an android developer?</label>
-            <div class="radio">
-              <label>
-                <input type="radio" name="survey2" value="1" checked>
-                Yes
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="survey2" value="2">
-                No
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="survey2" value="3">
-                Maybe
-              </label>
-            </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="survey1" value="3">
+              Not sure
+            </label>
           </div>
-          <div class="form-group">
-            <label for="survey3">Are you comfortable working in a fast paced work environment that builds websites for lots of clients?</label>
-            <div class="radio">
-              <label>
-                <input type="radio" name="survey3" value="1" checked>
-                Yes
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="survey3" value="2">
-                No
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="survey3" value="3">
-                Maybe
-              </label>
-            </div>
+        </div>
+        <div class="form-group">
+          <label for="survey2">Are you interested working as an android developer?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="survey2" value="1" checked>
+              Yes
+            </label>
           </div>
-          <div class="form-group">
-            <label for="survey4">Are you interested in building interactive web applications?</label>
-            <div class="radio">
-              <label>
-                <input type="radio" name="survey4" value="1" checked>
-                Yes
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="survey4" value="2">
-                No
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="survey4" value="3">
-                Maybe
-              </label>
-            </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="survey2" value="2">
+              No
+            </label>
           </div>
-          <div class="form-group">
-            <label for="survey5">Do you prefer working in a larger company or business software like Microsoft?</label>
-            <div class="radio">
-              <label>
-                <input type="radio" name="survey5" value="1" checked>
-                Yes
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="survey5" value="2">
-                No
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="survey5" value="3">
-                Maybe
-              </label>
-            </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="survey2" value="3">
+              Maybe
+            </label>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </div>
-      <div class="result">
-        <div class="name">
+        </div>
+        <div class="form-group">
+          <label for="survey3">Are you comfortable working in a fast paced work environment that builds websites for lots of clients?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="survey3" value="1" checked>
+              Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="survey3" value="2">
+              No
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="survey3" value="3">
+              Maybe
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="survey4">Are you interested in building interactive web applications?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="survey4" value="1" checked>
+              Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="survey4" value="2">
+              No
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="survey4" value="3">
+              Maybe
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="survey5">Do you prefer working in a larger company or business software like Microsoft?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="survey5" value="1" checked>
+              Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="survey5" value="2">
+              No
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="survey5" value="3">
+              Maybe
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <div class="result well">
+        <div id="name">
           <h3>Hello <span id="user"></span>!</h3>
         </div>
         <div class="suggestedtracks">
-          <h4>Below are the list of best tracks for you:</h4>
+          <h4>Below are the three best tracks for you:</h4>
           <div class="csstrack">
-            <h5>CSS/Design</h5>
+            <h3>CSS/Design</h3>
+            <div class="row">
+              <img src="img/intro.png" alt="intro image">
+              <img src="img/css.png" alt="css image">
+              <img src="img/javascript.png" alt="js image">
+              <img src="img/design.png" alt="design image">
+            </div>
           </div>
           <div class="javatrack">
-            <h5>Java/Android</h5>
+            <h3>Java/Android</h3>
+            <div class="row">
+              <img src="img/intro.png" alt="intro image">
+              <img src="img/javascript.png" alt="js image">
+              <img src="img/java.png" alt="java image">
+              <img src="img/android.png" alt="android image">
+            </div>
           </div>
           <div class="phptrack">
-            <h5>PHP/Drupal</h5>
+            <h3>PHP/Drupal</h3>
+            <div class="row">
+              <img src="img/intro.png" alt="intro image">
+              <img src="img/php.png" alt="php image" class="rowimage">
+              <img src="img/javascript.png" alt="js image">
+              <img src="img/drupal.png" alt="drupal image" class="rowimage">
+            </div>
           </div>
           <div class="rubytrack">
-            <h5>Ruby/Rails</h5>
+            <h3>Ruby/Rails</h3>
+            <div class="row">
+              <img src="img/intro.png" alt="intro image">
+              <img src="img/ruby.png" alt="ruby image">
+              <img src="img/javascript.png" alt="js image">
+              <img src="img/rails.png" alt="rails image">
+            </div>
           </div>
           <div class="csharptrack">
-            <h5>C#/.Net</h5>
+            <h3>C#/.Net</h3>
+            <div class="row">
+              <img src="img/intro.png" alt="intro image">
+              <img src="img/csharp.png" alt="csharp image">
+              <img src="img/javascript.png" alt="js image">
+              <img src="img/net.png" alt="net image">
+            </div>
           </div>
         </div>
       </div>

@@ -12,9 +12,9 @@
   background-color: white;
 }
 
-.result {
+/*.result {
   display:none;
-}
+}*/
 
 body{
   background-color: black;
@@ -27,4 +27,16 @@ blockquote {
 
 #formOne {
   background-color: white;
+}
+
+.result{
+  text-align: center;
+}
+
+.row img{
+  padding:10px;
+}
+
+.rowimage {
+  height:150px;
 }
