@@ -14,7 +14,7 @@ _This webpage is a survey form that asks user's input and suggest three best tra
 
 * _Clone this repository_
 * _For a mac, run the following command in your terminal:
-git clone (https://github.com/malethr/track-suggester/tree/master)_
+git clone (https://github.com/malethr/track-suggester.git)_
 * _Open the folder and click the html file in your preferred web browser._
 
 ## Support and contact details
